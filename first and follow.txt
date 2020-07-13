@@ -1,0 +1,15 @@
+First Functions-
+ 
+
+First(S) = { First(A) – ∈ } ∪ First(a) ∪ { First(B) – ∈ } ∪ First(b) = { a , b }
+First(A) = { ∈ }
+First(B) = { ∈ }
+ 
+
+Follow Functions-
+ 
+
+Follow(S) = { $ }
+Follow(A) = First(a) ∪ First(b) = { a , b }
+Follow(B) = First(b) ∪ First(a) = { a , b }
+ 
